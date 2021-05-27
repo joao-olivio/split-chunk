@@ -1,10 +1,14 @@
 import Vue from "vue";
-import App from "./App.vue";
-import store from "./store";
+import ComponentA from './Project/OAP/code/scripts/ComponentA/componentA.vue';
 
 Vue.config.productionTip = false;
 
+Vue.component(ComponentA.name, ComponentA);
+
 new Vue({
-  store,
-  render: (h) => h(App),
-}).$mount("#app");
+  components: {
+    ComponentA,
+    ComponentB: () => import(/* webpackChunkName: 'ComponentB' */'./Project/OAP/code/scripts/ComponentB/componentB.vue'),
+    ComponentC: () => import(/* webpackChunkName: 'ComponentC' */'./Project/OAP/code/scripts/ComponentC/componentC.vue'),
+  }
+}).$mount("#main-container");

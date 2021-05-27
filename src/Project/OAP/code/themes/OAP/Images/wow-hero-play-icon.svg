@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="13px" viewBox="0 0 11 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="loreal_d_hero_play-:hover" transform="translate(-1876.000000, -113.000000)" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="2">
+            <g id="-play-button" transform="translate(1860.000000, 100.000000)">
+                <path fill="#FFF" d="M14.6305564,14.4161809 C14.464853,14.3728985 14.2908103,14.3728985 14.1251069,14.4161809 C13.5907503,14.5557569 13.2707174,15.1020872 13.4102934,15.6364438 L15.4312508,23.3735317 C15.4761536,23.5454389 15.5660471,23.7022787 15.6916822,23.8279138 C16.0822065,24.218438 16.7153715,24.218438 17.1058958,23.8279138 L22.8220263,18.1117832 C22.9476614,17.9861481 23.0375549,17.8293084 23.0824577,17.6574012 C23.2220338,17.1230446 22.9020009,16.5767142 22.3676443,16.4371382 L14.6305564,14.4161809 Z" id="Rectangle-3" transform="translate(18.788225, 19.794113) rotate(135.000000) translate(-18.788225, -19.794113) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

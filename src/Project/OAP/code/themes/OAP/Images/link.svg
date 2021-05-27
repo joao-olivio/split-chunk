@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 25 21" version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style="enable-background:new 0 0 25 21;" xml:space="preserve">
+	<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;}
+	</style>
+	<g id="Articles">
+		<g id="Article_sharenotification_d" transform="translate(-685.000000, -1056.000000)">
+			<g id="share" transform="translate(525.000000, 1041.000000)">
+				<g id="copy-copy" transform="translate(146.637931, 0.000000)">
+					<g id="link" transform="translate(12.801724, 15.116279)">
+						<path id="Rectangle-8" class="st0" d="M14.2,6.8c-1.6-1.6-4.2-1.6-5.9,0l-5.4,5.4c-1.6,1.6-1.6,4.2,0,5.8
+						c1.6,1.6,4.2,1.6,5.9,0l5.4-5.4C15.8,11.1,15.8,8.4,14.2,6.8z"/>
+						<path id="Rectangle-8_1_" class="st0" d="M23.3,3c-1.6-1.6-4.2-1.6-5.9,0L12,8.4c-1.6,1.6-1.6,4.2,0,5.8c1.6,1.6,4.2,1.6,5.9,0
+						l5.4-5.4C24.9,7.2,24.9,4.6,23.3,3z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

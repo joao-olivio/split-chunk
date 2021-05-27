@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Campton';
+  src: url('/CamptonW05-Book.eot?#iefix');
+  src: url('/CamptonW05-Book.eot?#iefix') format('eot'),
+  url('/CamptonW05-Book.woff2') format('woff2'),
+  url('/CamptonW05-Book.woff') format('woff'),
+  url('/CamptonW05-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Campton';
+  src: url('/CamptonW05-BookItalic.eot?#iefix');
+  src: url('/CamptonW05-BookItalic.eot?#iefix') format('eot'),
+  url('/CamptonW05-BookItalic.woff2') format('woff2'),
+  url('/CamptonW05-BookItalic.woff') format('woff'),
+  url('/CamptonW05-BookItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Campton';
+  src: url('/CamptonW05-Medium.eot?#iefix');
+  src: url('/CamptonW05-Medium.eot?#iefix') format('eot'),
+  url('/CamptonW05-Medium.woff2') format('woff2'),
+  url('/CamptonW05-Medium.woff') format('woff'),
+  url('/CamptonW05-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Campton';
+  src: url('/CamptonW05-Bold.eot?#iefix');
+  src: url('/CamptonW05-Bold.eot?#iefix') format('eot'),
+  url('/CamptonW05-Bold.woff2') format('woff2'),
+  url('/CamptonW05-Bold.woff') format('woff'),
+  url('/CamptonW05-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Campton';
+  src: url('/CamptonW05-ExtraBold.eot?#iefix');
+  src: url('/CamptonW05-ExtraBold.eot?#iefix') format('eot'),
+  url('/CamptonW05-ExtraBold.woff2') format('woff2'),
+  url('/CamptonW05-ExtraBold.woff') format('woff'),
+  url('/CamptonW05-ExtraBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --skin-link: #e32847;
+}
+
+html {
+  font: 16px/1.5 "Campton", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #000000;
+
+  &:hover {
+    color: var(--skin-link);
+  }
+}
+
+mark {
+  background-color: #f8bda1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  &, .Prose &, &.Document-title {
+    color: black;
+    letter-spacing: .125rem;
+  }
+}
+
+.Browser-tab.is-active a {
+  border-bottom-color: var(--skin-link);
+}
+
+.Pen-previewLink svg {
+  fill: var(--skin-link);
+}
+
+.Header {
+  background: #ffffff;
+  height: 4rem;
+
+  &-logo {
+    margin-right: 2rem;
+    height: 1.5rem;
+  }
+
+  &-title {
+    display: flex;
+
+    &:active,
+    &:hover,
+    &:link,
+    &:visited {
+      color: #000000;
+    }
+  }
+
+  &-navToggleIcon {
+    color: #000000;
+  }
+}
+
+.Frame-panel {
+  &--sidebar {
+    background: #ffffff;
+    padding: 2rem 1rem;
+  }
+}
+
+code {
+  background: #272822;
+  color: #a6e22e;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
